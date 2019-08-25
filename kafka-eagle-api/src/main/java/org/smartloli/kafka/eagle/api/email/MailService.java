@@ -25,7 +25,5 @@ package org.smartloli.kafka.eagle.api.email;
  *         Created by Jan 17, 2017
  */
 public interface MailService {
-
-	public boolean send(String subject, String address, String content, String attachment);
-
+	boolean send(String subject, String address, String content, String attachment);
 }
